@@ -22,3 +22,14 @@
 @theme {
     --font-poppins: Poppins, sans-serif;
 }
+
+/* marquee speed */
+.animate-marquee {
+    animation: marquee 5s linear infinite; 
+}
+
+/* swiper css */
+.trending-swiper {
+  --swiper-navigation-color: #000;
+}
+

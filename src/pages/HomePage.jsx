@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
+import Tranding from './components/Trending'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       
       {/* Banner */}
       <Banner />
+      <Tranding />
     </div>
   )
 }

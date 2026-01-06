@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className='w-full font-["Poppins",sans-serif]'>
+        <nav className='fixed w-full font-poppins'>
             <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex justify-between items-center py-6 md:py-8 lg:pt-[66px]'>
                     {/* Logo */}
