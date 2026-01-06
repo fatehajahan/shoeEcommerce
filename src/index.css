@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* container */
+@utility container {
+    padding-inline: 10px;
+    margin-inline: auto;
+
+    @variant sm {
+        padding-inline: 20px;
+    }
+
+    @variant lg {
+        padding-inline: 80px;
+    }
+
+    @variant xl {
+        padding-inline: 120px;
+    }
+}
+
+/* fonts */
+@theme {
+    --font-poppins: Poppins, sans-serif;
+}
