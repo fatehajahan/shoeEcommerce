@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Tranding from './components/Trending'
+import PinkLead from './components/PinkLead'
 
 const HomePage = () => {
   return (
@@ -10,10 +11,13 @@ const HomePage = () => {
       <div className='absolute top-0 left-0 right-0 z-50'>
         <Navbar />
       </div>
-      
+
       {/* Banner */}
       <Banner />
       <Tranding />
+      <div className='md:block lg:block hidden'>
+        <PinkLead />
+      </div>
     </div>
   )
 }
