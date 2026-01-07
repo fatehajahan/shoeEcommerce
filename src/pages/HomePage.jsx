@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Tranding from './components/Trending'
 import PinkLead from './components/PinkLead'
+import BestSelling from './components/BestSelling'
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <div className='md:block lg:block hidden'>
         <PinkLead />
       </div>
+      <BestSelling />
     </div>
   )
 }
