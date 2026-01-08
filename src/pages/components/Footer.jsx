@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import footerlogo from '../../assets/footerLogo.png';
+import { toast } from 'react-toastify';
 
 const Footer = () => {
     const [email, setEmail] = useState('');
 
     const handleSubscribe = () => {
         if (email) {
-            alert(`Subscribed with: ${email}`);
+            toast.success(`Subscribed with: ${email}`);
             setEmail('');
         }
     };
