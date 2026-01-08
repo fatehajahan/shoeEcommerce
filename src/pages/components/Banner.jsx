@@ -41,11 +41,11 @@ const Banner = () => {
                                 data-aos-delay="300"
                                 src={bannerShoe}
                                 alt="Trendy Slick Pro Shoe"
-                                className='z-50 object-contain w-full h-full max-w-[400px] sm:max-w-[500px] md:max-w-[800px] lg:max-w-[700px] xl:max-w-full'
+                                className=' object-contain w-full h-full max-w-[400px] sm:max-w-[500px] md:max-w-[800px] lg:max-w-[700px] xl:max-w-full'
                             />
 
                             {/* Price Section */}
-                            <div className='absolute bottom-4 sm:bottom-8 md:top-[600px] lg:top-[750px] xl:top-[820px] left-1/2 -translate-x-1/2 text-center z-50'>
+                            <div className='absolute bottom-4 sm:bottom-8 md:top-[600px] lg:top-[750px] xl:top-[820px] left-1/2 -translate-x-1/2 text-center '>
                                 <p className='font-poppins text-sm sm:text-base md:text-lg font-semibold'>Trendy Slick Pro</p>
                                 <p className='font-poppins text-lg sm:text-xl md:text-2xl font-bold mt-1'>₹ 3999.00</p>
                             </div>

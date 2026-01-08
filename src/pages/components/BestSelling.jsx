@@ -7,8 +7,6 @@ import pro5 from '../../assets/pro5.png'
 import pro6 from '../../assets/pro6.png'
 import { IoArrowRedoCircle } from 'react-icons/io5'
 
-
-
 const BestSelling = () => {
     const products = [
         {
