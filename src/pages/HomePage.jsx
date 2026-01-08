@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import Tranding from './components/Trending'
 import PinkLead from './components/PinkLead'
 import BestSelling from './components/BestSelling'
+import Review from './components/Review'
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
         <PinkLead />
       </div>
       <BestSelling />
+      <Review />
     </div>
   )
 }
