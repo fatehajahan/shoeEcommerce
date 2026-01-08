@@ -53,7 +53,7 @@ const Review = () => {
             </div>
 
             {/* Review Swiper */}
-            <div className='pt-[50px] md:pt-[80px] lg:pt-[100px] flex justify-center'>
+            <div className='reviewSwiper pt-[50px] md:pt-[80px] lg:pt-[100px] flex justify-center'>
 
                 <Swiper
                     modules={[Navigation]}
