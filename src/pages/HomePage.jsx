@@ -5,6 +5,7 @@ import Tranding from './components/Trending'
 import PinkLead from './components/PinkLead'
 import BestSelling from './components/BestSelling'
 import Review from './components/Review'
+import Footer from './components/Footer'
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       </div>
       <BestSelling />
       <Review />
+      <Footer />
     </div>
   )
 }
